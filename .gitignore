@@ -1,2 +1,26 @@
+# Ignorar node_modules en la raíz y en cualquier subcarpeta (server, todo_pwaa, etc.)
+**/node_modules/
 node_modules/
+
+# Archivos de variables de entorno (secretos)
+**/.env
+**/.env.local
+**/.env.*.local
 .env
+
+# Carpetas de compilación / build
+**/dist/
+**/build/
+dist/
+build/
+
+# Logs y cachés
+**/npm-debug.log*
+**/yarn-debug.log*
+**/yarn-error.log*
+**/.DS_Store
+.DS_Store
+
+# Caché de Vite y TypeScript
+**/.vite/
+**/*.tsbuildinfo
